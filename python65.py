@@ -71,7 +71,7 @@ bot>@python453bot
 
  
                            """)
-bot = '1916653814:AAFdN76EsLWjd1f-fInYyAgmRSf8l8rNnHg'
+bot = '1984089570:AAEOFZGpPCcpZrSYzbN7PZ9SAjcJ8Pn4INw'
 print('===================================')
 def close():
     input('- Press Enter To Exit /')
